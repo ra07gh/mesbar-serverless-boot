@@ -22,4 +22,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/mesbar-serverless-boot:latest
+        tags: ra07gh/mesbar-serverless-boot:v3

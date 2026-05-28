@@ -26,7 +26,7 @@ if not os.path.exists("/app/project"):
 
 # إضافة المجلد المسحوب لمسار نظام البايثون لتشغيل كود الـ handler الأصلي حقكِ
 sys.path.append("/app/project")
-from project.handler import handler as padel_handler
+from handler import handler as padel_handler
 
 # إطلاق خدمة السيرفرليس لـ RunPod لتبدأ باستقبال طلبات دجانغو ومعالجة الفيديوهات
 if __name__ == "__main__":
